@@ -65,6 +65,16 @@ if you use anaconda
 > conda install matplotlib=2.1.0
 ```
 
+### Install The Project
+* This is required to make sure that python can find this project packages, and run the notebooks. and should be run from repo's root
+```
+if you use pip: 
+> pip3 install -e .
+	
+if you use anaconda
+> conda install .
+```
+
 ### Running the example and rate your own movies:
 Now that you have run the example, and downloaded the data, you can run the first notebook to make sure everything went OK.
 
